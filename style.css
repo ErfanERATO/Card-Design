@@ -1,0 +1,132 @@
+.main-card {
+    display: flex;
+    width: 350px;
+    height: 490px;
+    border: 3px solid transparent;
+    border-radius: 13px;
+    flex-direction: column;
+    box-shadow: 10px 10px 5px rgb(243, 243, 243);
+}
+
+.image-place .image-top .image {
+    width: 350px;
+    height: 190px;
+    border-radius: 4%;
+}
+
+.solid-background {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 350px;
+    height: 550px;
+    border-radius: 13px;
+}
+
+.first-div {
+    padding-left: 20px;
+    text-align: right;
+    padding-right: 20px;
+    color: rgba(54, 53, 53, 0.5);
+}
+
+.second-div {
+    padding-left: 20px;
+    text-align: right;
+    padding-right: 20px;
+    color: rgb(29, 0, 92);
+    font-weight: bold;
+    margin-top: -18px;
+}
+
+.third-div {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-left: 20px;
+    text-align: right;
+    padding-right: 20px;
+    color: rgba(54, 53, 53, 0.5);
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+
+.description-div {
+    display: flex;
+    padding-left: 20px;
+    text-align: right;
+    padding-right: 20px;
+    color: rgba(20, 8, 68, 0.5);
+}
+
+.last-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+
+.avatar-image{
+    display: flex;    
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+
+.avatar-text{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.name{
+    color: black;
+}
+
+.place{
+    color: rgba(54, 53, 53, 0.5);
+}
+
+.button{
+    background-color: rgb(255, 119, 0);
+    width: 30px;
+    height: 30px;
+    border-radius: 9px;
+    margin-left: 5px;
+}
+
+
+.avatar-and-text{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.minute{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.date-calender{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.arrow{
+    padding-top: 9px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+}
