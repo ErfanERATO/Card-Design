@@ -9,9 +9,9 @@
 }
 
 .image-place .image-top .image {
-    width: 350px;
+    width: 353px;
     height: 190px;
-    border-radius: 4%;
+    border-radius: 5% 5% 0 0;
 }
 
 .solid-background {
